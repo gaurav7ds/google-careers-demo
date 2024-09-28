@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+:root{
+  --color-grey-1: #dadce0;
+  --color-grey-2: #5f6368;
+  --color-blue-1: #1967d2;
+  --color-blue-2: #4285f4;
+  --color-green-1: #137333;
+  --color-green-2: #43a853;
+  --color-red-1: #ea4335;
+  --color-yellow-1: #fbbc05;
+}
+
+.blue {
+  color: var(--color-blue-2);
+}
+.red {
+  color: var(--color-red-1);
+}
+.green {
+  color: var(--color-green-2);
+}
+.yellow {
+  color: var(--color-yellow-1);
+}
+.grey {
+  color: var(--color-grey-2);
+}
